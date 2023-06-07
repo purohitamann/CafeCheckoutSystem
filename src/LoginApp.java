@@ -12,8 +12,9 @@ public class LoginApp extends Application  {
 public void start(Stage primaryStage) throws Exception {
         LoginFx loginCheck = new LoginFx();
         loginCheck.start(primaryStage);
-        App app = new App();
-        if(loginCheck.check == false){
+        
+        if(loginCheck.check == true){
+                App app = new App();
                 loginCheck.stop();
                 app.start(new Stage());
         }

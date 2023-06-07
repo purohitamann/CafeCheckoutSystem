@@ -106,11 +106,9 @@ public static void main(String[] args) {
             }
              }
         } catch (IOException e1) {
-           
-            e1.printStackTrace();
+            this.check = false;
         } catch (Exception e1) {
-            // TODO Auto-generated catch block
-            e1.printStackTrace();
+            this.check = false;
         }
 
         
@@ -118,20 +116,6 @@ public static void main(String[] args) {
 
        });
 
-     
-    //     btnLogin.setOnAction(e -> {
-    //         String UserName = tfusername.getText();
-    //         String PassWord = tfpassword.getText(); 
-            
-       
-    // });
-   
-   
-
-    
-// } public static void main(String[] args) {
-//     launch(args);
-//
  }
 
 

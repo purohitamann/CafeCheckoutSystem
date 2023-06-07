@@ -25,13 +25,16 @@ import javafx.stage.Stage;
 
 
 public class login  {
-    private Employee username;
+    private Employee username = new Employee("Crew");
     private String password;
     private static int noOfUsers=0;
     private boolean check;
 
-    public login(){
+    public login() throws IOException{
          this.noOfUsers++;
+         PasswordManager manpass = new PasswordManager();
+         manpass.setPassword();
+     
     }
 
     public login(String name) throws IOException{
@@ -101,12 +104,14 @@ public class login  {
     }
     
 
-    private class PasswordManager extends login{
-
+    private class PasswordManager {
+         
+    
         private void setPassword() throws IOException{
             Scanner reader = new Scanner(System.in);
                 System.out.println("Enter Username: ");
                 String username = reader.next();
+                getUsername().setEmployeeFristName(username);;
            
            
             

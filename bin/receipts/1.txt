@@ -1,11 +1,11 @@
 Order No: 1
-Order Id: 39
+Order Id: 73
 Order Date: 6/7/2023
-Order Time: 1:15
-Wrap       3.29
+Order Time: 11:25
+CornFlakes 1.99
 Item Count: 1
-Subtotal: 3.29
-Taxable Total: 3.72
-Your Cashier today Aman P.
+Subtotal: 1.99
+Taxable Total: 2.25
+Your Cashier today a
 
 ---------Thank You--------
