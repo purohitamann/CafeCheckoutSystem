@@ -1,0 +1,12 @@
+Order No: 2
+Order Id: 169
+Order Date: 6/7/2023
+Order Time: 1:07
+pastry     1.90
+Dairy milk 3.00
+Item Count: 2
+Subtotal: 4.9
+Taxable Total: 5.54
+Your Cashier today Aman P.
+
+---------Thank You--------

@@ -1,0 +1,18 @@
+.layout{
+    -fx-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -fx-color: rgb(88, 46, 26);
+    -fx-background-color: rgba(230, 188, 153, 0.261);
+    -fx-font-size: 18px;
+    -fx-margin: 20px;
+    -fx-padding: 15px;
+}
+
+.layoutmain{
+    -fx-font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -fx-color: rgb(88, 46, 26);
+    -fx-background-color: rgb(88, 46, 26);
+    -fx-font-variant: small-caps;
+    -fx-font-size: 18px;
+    -fx-margin: 20px;
+    -fx-padding: 15px;
+}

@@ -1,0 +1,11 @@
+Order No: 1
+Order Id: 39
+Order Date: 6/7/2023
+Order Time: 1:15
+Wrap       3.29
+Item Count: 1
+Subtotal: 3.29
+Taxable Total: 3.72
+Your Cashier today Aman P.
+
+---------Thank You--------
