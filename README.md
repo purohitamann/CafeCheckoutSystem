@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Cafe Checkout System is part of my Semester 02 individual project. it uses Java along with all the required technologies such as, Random Access File, File I/O, JavaFx, ArrayList. the project creates a payment system for a cafe, with Login credential set-up and verfication. User can even view past transaction details.
 
 ## Folder Structure
 
@@ -9,9 +9,6 @@ The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
 ## Dependency Management
 
