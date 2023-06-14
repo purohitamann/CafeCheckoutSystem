@@ -1,6 +1,6 @@
 ## Getting Started
 
-Cafe Checkout System is part of my Semester 02 individual project. it uses Java along with all the required technologies such as, Random Access File, File I/O, JavaFx, ArrayList. the project creates a payment system for a cafe, with Login credential set-up and verfication. User can even view past transaction details.
+Cafe Checkout System is part of my Semester 02 individual project. it is built using Java along with all the required technologies such as, Random Access File, File I/O, JavaFx, ArrayList. the project creates a payment system for a cafe, with Login credential set-up and verfication. User can even view past transaction details. 
 
 ## Folder Structure
 
