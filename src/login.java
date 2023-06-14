@@ -97,7 +97,7 @@ public class login  {
         //         System.out.println("User not Found!");
         //     }
             // loginRAF.setLength(0);
-            loginRAF.close();
+            // loginRAF.close();
             
         }
         return found;
@@ -174,8 +174,53 @@ public class login  {
          
         }
 
+        public boolean validateCredentials(String Username,String enteredpass) throws IOException{
+            boolean checkpass=false;
+            if(this.validateUser(Username)){
+                  File loginFile = new File("src\\Credentials\\loginCredentials.dat");
+                RandomAccessFile loginRAF = new RandomAccessFile(loginFile,"rw");
+                loginRAF.seek(0);
+                 final int EOF = -1;
+                while(loginRAF.read() != EOF){
+                //     byte[] user = Username.getBytes(StandardCharsets.UTF_8);
+                //     byte[] foundUser = loginRAF.readByte();
+                //   if (loginRAF.readByte() == user){
+
+                //   }
+                // }
+                byte[] nameBytes = new byte[Username.length()];
+    loginRAF.read(nameBytes);
+    String name = new String(nameBytes, StandardCharsets.UTF_8);
+
+    // Read the passcode byte array
+    byte[] passcodeBytes = new byte[password.length()];
+    loginRAF.read(passcodeBytes);
+    String passcode = new String(passcodeBytes, StandardCharsets.UTF_8);
+
+    // Process the name and passcode
+    if(name == Username && passcode == enteredpass){
+        checkpass = true;
+        break;
+    }else{
+       loginRAF.readLine(); 
+    }
+    
+    // Read the next line (to skip the newline character)
+    
+}       
+            }
+               if (this.password.equals(enteredpass)){
+              checkpass = true; 
+            }else{
+                checkpass = false;
+            }
+            return checkpass;
+         
+        }
+
     public static void main(String[] args) throws IOException {
         login manager = new login("Aman");
+        
         
         // login crew = new login("Roop");
         // crew.setPassword();

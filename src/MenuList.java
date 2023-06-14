@@ -146,14 +146,14 @@ public class MenuList extends MenuItem {
         writer.println("Order Date: " + this.orderDate.getMonthValue()+"/"+this.orderDate.getDayOfMonth()+"/"+this.orderDate.getYear());
         writer.println("Order Time: " + this.orderTime);
          for (int i = 0; i < listOfItem.size(); i++) {
-            writer.printf("%-10s %-4.2f\n", listOfItem.get(i).getItemName(), listOfItem.get(i).getItemPrice());
+            writer.printf("\t %-20s%-4.2f\n", listOfItem.get(i).getItemName(), listOfItem.get(i).getItemPrice());
 
         }
-        writer.println("Item Count: " + getItemCount());
-        writer.println("Subtotal: " + generateSubtotal());
-        writer.println("Taxable Total: " + getTotal());
-        writer.println("Your Cashier today "+ LoginFx.currentUser.getEmployeeFristName());
-        writer.println("\n---------Thank You--------");
+        writer.println("\sItem Count:  " + getItemCount());
+        writer.println("\sSubtotal: $" + generateSubtotal());
+        writer.println("\sTaxable Total: $" + getTotal());
+        writer.println("\sYour Cashier today "+ LoginFx.currentUser.getEmployeeFristName());
+        writer.println("\s\n---------Thank You--------");
         writer.close();
 
     }

@@ -82,18 +82,20 @@ public static void main(String[] args) {
         String UserName = tfusername.getText();
         String PassWord = tfpassword.getText(); 
         try {
-            System.out.println(UserName);
-            System.out.println(PassWord);
-            if(user.validateUser(UserName)){ 
+            // System.out.println(UserName);
+            // // System.out.println(PassWord);
+            // if(user.validateUser(UserName)){ 
 
-               if(user.validatePassword(PassWord)){
-                System.out.println(PassWord);
+            //    if(user.validatePassword(PassWord)){
+            //     System.out.println(PassWord);
                
-                user.setCheck(true);
-                this.check = true;
+            //     user.setCheck(true);
+            //     
+            if(user.validateCredentials(UserName, PassWord)){
+            this.check = true;
                 this.currentUser = user.getUsername();
-               
-               System.out.println(user.isCheck());
+
+            //    System.out.println(user.isCheck());
                 
                 primaryStage.close();
                
@@ -104,7 +106,7 @@ public static void main(String[] args) {
                 this.check = false;
                
             }
-             }
+             
         } catch (IOException e1) {
             this.check = false;
         } catch (Exception e1) {

@@ -1,11 +1,13 @@
 Order No: 1
-Order Id: 73
-Order Date: 6/7/2023
-Order Time: 11:25
-CornFlakes 1.99
-Item Count: 1
-Subtotal: 1.99
-Taxable Total: 2.25
-Your Cashier today a
-
+Order Id: 27
+Order Date: 6/14/2023
+Order Time: 13:49
+	 Chocolate Bar       3.00
+	 Smoothie            4.50
+	 Sandwich            2.99
+ Item Count:  3
+ Subtotal: $10.49
+ Taxable Total: $11.85
+ Your Cashier today aman
+ 
 ---------Thank You--------
